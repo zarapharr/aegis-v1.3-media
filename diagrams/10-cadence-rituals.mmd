@@ -1,0 +1,17 @@
+gantt
+    title Tier 2 Agent Ops Cadence (calendar, not memory)
+    dateFormat YYYY-MM-DD
+    section Daily
+    Eval (10-20 items, 15 min)        :active, daily, 2026-06-01, 30d
+    section Weekly
+    Overrule log review (Friday 4pm)  :weekly1, 2026-06-05, 1d
+    Overrule log review               :weekly2, 2026-06-12, 1d
+    Overrule log review               :weekly3, 2026-06-19, 1d
+    Overrule log review               :weekly4, 2026-06-26, 1d
+    section Monthly
+    Sponsor review (1st Monday)        :sponsor, 2026-07-06, 1d
+    section Quarterly
+    Kill-criteria audit (1st Mon Q3)   :crit, audit, 2026-07-06, 1d
+    section Event-triggered
+    Vendor update protocol             :milestone, vendor, 2026-06-15, 1d
+    Incident response (first 30 min)   :milestone, inc, 2026-06-20, 1d

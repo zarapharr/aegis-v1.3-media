@@ -1,0 +1,15 @@
+This is Aegis Academy. Four tiers, one discipline, the credential leaders actually use.
+
+Aegis means shield, in Greek. The mark of this academy is a shield with four rungs: each rung is a tier; each rung earns a credential; each credential is renewed every twelve months because the work is changing too fast for any other timeframe.
+
+Tier Zero is the baseline. What A.I. is, what it is not, and what it should not touch. Four to six hours. Anyone new to using A.I. at work.
+
+Tier One is operating discipline. The five-question fit test, context engineering, the daily eval ritual, kill criteria, and the Workflow Operating Plan. Six to eight hours. Practitioners ready to own an A.I.-assisted workflow.
+
+Tier Two is agentic delegation. The twelve-element brief, the trust boundary, the sampling cadence, the override frame, and the Agent Operating Plan. Eight to ten hours. Managers ready to scale from supervising one workflow to designing the next ten.
+
+Tier Three is boardroom decision discipline. The seven A.I. pathologies, the seven executive lenses, the unwind plan, and the Boardroom Decision Review Packet. Six to ten hours. Leaders ready to defend the call in front of a board.
+
+Each tier ends with a capstone. The capstone is real work on real workflows or real decisions. The credential is the signal; the work is the proof.
+
+Welcome.

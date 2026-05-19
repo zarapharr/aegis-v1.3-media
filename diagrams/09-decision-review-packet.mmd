@@ -1,0 +1,19 @@
+flowchart TB
+    DRP["Boardroom Decision Review Packet<br/>Tier 3 capstone artifact"]
+    DRP --> S0["§0 AI-content disclosure"]
+    DRP --> S1["§1 Pre-mortem"]
+    DRP --> S2["§2 7-pathology check"]
+    DRP --> S3["§3 7-lens review with<br/>pathology assignments"]
+    DRP --> S4["§4 Reversibility + unwind"]
+    DRP --> S5["§5 Stakeholder coalition<br/>+ 1:1 schedule"]
+    DRP --> S6["§6 Named owner + checkpoint"]
+    DRP --> S7["§7 Risk + governance posture"]
+    DRP --> S8["§8 Reflection"]
+
+    S6 -->|"named owner accepted"| EXEC["Execution evidence<br/>(1:1s, attestation, checkpoint)"]
+    EXEC -->|"submitted to panel"| PANEL["Aegis Advisor Panel<br/>60-90 min · 8 capabilities"]
+    PANEL -->|"pass"| CRED["Aegis Advisor<br/>credential<br/>(12-month renewal)"]
+
+    style DRP fill:#9bc7d8,stroke:#2c5f7f,stroke-width:3px
+    style CRED fill:#d4edda,stroke:#2c5f3f,stroke-width:3px
+    style PANEL fill:#fff4d6,stroke:#b8860b,stroke-width:2px

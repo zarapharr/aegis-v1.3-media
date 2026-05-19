@@ -1,0 +1,23 @@
+flowchart TB
+    AUTH["Author drafts an internal memo,<br/>deck, recommendation, or report"]
+
+    AUTH --> AI{"Used AI in any<br/>part of preparation?"}
+
+    AI -->|"NO"| TAG_NO["Footer disclosure:<br/>'AI-content disclosure: this document<br/>was authored without AI assistance.'"]
+
+    AI -->|"YES"| WHICH["Identify which sections<br/>used AI and which tool(s)"]
+
+    WHICH --> TAG_YES["Footer disclosure (1 line):<br/>'AI-content disclosure: portions of<br/>this document were AI-drafted using<br/>[tool] and human-edited by [author].<br/>The framework and recommendations<br/>are human-authored.'"]
+
+    TAG_NO --> SHIP["Memo ships"]
+    TAG_YES --> SHIP
+
+    SHIP --> READ["Reader knows what they are<br/>calibrating against:<br/>analyst work vs AI-assisted draft."]
+
+    READ --> ELIM["Pathology 1 eliminated<br/>across the company surface"]
+
+    style AUTH fill:#e8f4f8,stroke:#2c5f7f
+    style AI fill:#fff4d6,stroke:#b8860b,stroke-width:2px
+    style TAG_NO fill:#d4edda,stroke:#2c5f3f
+    style TAG_YES fill:#d4edda,stroke:#2c5f3f
+    style ELIM fill:#9bc7d8,stroke:#2c5f7f,stroke-width:2px

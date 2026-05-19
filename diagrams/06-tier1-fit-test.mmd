@@ -1,0 +1,20 @@
+flowchart TB
+    W["Workflow candidate"]
+    W --> Q1{"Q1: Frequency<br/>≥ daily?"}
+    Q1 -->|"No"| OUT["Probably not Tier 1<br/>(one-off = personal AI use)"]
+    Q1 -->|"Yes"| Q2{"Q2: Reviewable<br/>by a human?"}
+    Q2 -->|"No"| OUT2["Not yet ready<br/>(build the review first)"]
+    Q2 -->|"Yes"| Q3{"Q3: Reversible<br/>if wrong?"}
+    Q3 -->|"No"| OUT3["Stays human-gated<br/>(too risky for Tier 1 alone)"]
+    Q3 -->|"Yes"| Q4{"Q4: Data class<br/>SAFE / APPROVED-TOOL?"}
+    Q4 -->|"NEVER-AI"| OUT4["Excluded<br/>(off-limits per data policy)"]
+    Q4 -->|"OK"| Q5{"Q5: Measurable<br/>output quality?"}
+    Q5 -->|"No"| OUT5["Build the eval first<br/>(can't manage what you can't measure)"]
+    Q5 -->|"Yes"| FIT["TIER 1 FIT<br/>Build context inventory,<br/>scaffolding, eval, kill criteria"]
+
+    style FIT fill:#d4edda,stroke:#2c5f3f,stroke-width:3px
+    style OUT fill:#f8d7da,stroke:#a02530
+    style OUT2 fill:#f8d7da,stroke:#a02530
+    style OUT3 fill:#f8d7da,stroke:#a02530
+    style OUT4 fill:#f8d7da,stroke:#a02530
+    style OUT5 fill:#f8d7da,stroke:#a02530

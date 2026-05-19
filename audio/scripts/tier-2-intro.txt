@@ -1,0 +1,11 @@
+Welcome to Aegis Academy, Tier Two: Agentic Delegation.
+
+You are here because at least one workflow in your shop is ready to move from "human with A.I. assist" to "agent with checkpoints." That is a different management discipline. Tier Two teaches it.
+
+You will learn the three axes: speed, scale, reversibility. Reversibility is the gate. You will learn the four workers: human only, human plus A.I., agentic with checkpoints, fully automated. The sweet spot is worker three. Walk the menu in order. Skipping to worker four is the failure mode.
+
+You will write the twelve-element brief. You will set the trust boundary. You will design the sampling cadence, the override frame, the kill criteria, and the rollback plan. You will pre-write the customer-facing apology templates. Under stress, no manager writes good copy from scratch.
+
+The capstone is your Agent Operating Plan, defended in front of a panel. The panel asks the question that distinguishes a documented agent from a managed one: "show us where your manager's signature lives in this workflow." If your A.O.P. answers in section four, section six, and section ten, you carry the Aegis Practitioner credential. The agent enters production with named sponsor accountability.
+
+This is the credential leaders actually use to decide who runs agentic workflows at their company. Earn it carefully. Ready?

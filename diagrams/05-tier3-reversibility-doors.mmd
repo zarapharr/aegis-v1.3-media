@@ -1,0 +1,22 @@
+flowchart TB
+    D{"Decision"}
+    D --> Q1["What kind of door?"]
+
+    Q1 --> OW["One-way door<br/>(hire CEO, sell company,<br/>public statement)"]
+    Q1 --> TW["Two-way door<br/>(pilot vendor, A/B test,<br/>marketing campaign)"]
+    Q1 --> TW2OW["Two-way that becomes<br/>one-way after [date]<br/>(most vendor contracts,<br/>senior hires)"]
+
+    OW --> A1["Disproportionate analysis<br/>BEFORE committing"]
+    TW --> A2["Move fast<br/>Light analysis OK"]
+    TW2OW --> A3["Flag the trigger date<br/>Pre-write the exit trigger<br/>Schedule pre-close checkpoint"]
+
+    A1 --> U["Unwind plan<br/>(written before launch)"]
+    A2 --> U
+    A3 --> U
+
+    U --> CK["30-day post-launch checkpoint<br/>'Would we still decide this today?'"]
+
+    style OW fill:#f8d7da,stroke:#a02530
+    style TW fill:#d4edda,stroke:#2c5f3f
+    style TW2OW fill:#fff4d6,stroke:#b8860b,stroke-width:2px
+    style CK fill:#e8f4f8,stroke:#2c5f7f,stroke-width:2px

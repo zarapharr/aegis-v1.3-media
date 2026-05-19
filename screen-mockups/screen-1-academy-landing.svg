@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1800" width="1440" height="1800">
+  <rect width="1440" height="1800" fill="#fdf8ef"/>
+  
+  <!-- Browser chrome -->
+  <rect width="1440" height="48" fill="#e0e0e0"/>
+  <circle cx="20" cy="24" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="24" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="24" r="6" fill="#28c840"/>
+  <rect x="200" y="12" width="900" height="24" rx="12" fill="#ffffff" stroke="#cccccc"/>
+  <text x="220" y="29" font-family="Helvetica" font-size="13" fill="#666">https://aegisboardroom.com/academy</text>
+  <text x="1200" y="29" font-family="Helvetica" font-size="11" fill="#666">Aegis Academy</text>
+
+  
+  <!-- Site nav -->
+  <rect y="48" width="1440" height="72" fill="#fdf8ef"/>
+  <g transform="translate(80,68)">
+    <path d="M 0 0 L 26 0 L 26 30 Q 26 43 13 47 Q 0 43 0 30 Z" fill="none" stroke="#2c5f7f" stroke-width="1.5"/>
+    <line x1="6" y1="9" x2="20" y2="9" stroke="#2c5f7f" stroke-width="1"/>
+    <line x1="6" y1="18" x2="20" y2="18" stroke="#2c5f7f" stroke-width="1"/>
+    <line x1="6" y1="27" x2="20" y2="27" stroke="#2c5f7f" stroke-width="1"/>
+    <line x1="6" y1="36" x2="20" y2="36" stroke="#2c5f7f" stroke-width="1"/>
+    <text x="42" y="22" font-family="Georgia" font-size="20" font-weight="500" fill="#2c5f7f">AEGIS</text>
+    <text x="42" y="40" font-family="Georgia" font-size="12" font-style="italic" fill="#1a2a35" opacity="0.6">ACADEMY</text>
+  </g>
+  <g font-family="Helvetica" font-size="14" fill="#1a2a35">
+    <text x="900" y="92" fill="#2c5f7f">Academy</text>
+    <text x="990" y="92">Sprints</text>
+    <text x="1070" y="92">Credentials</text>
+    <text x="1180" y="92">About</text>
+  </g>
+  <rect x="1260" y="75" width="110" height="34" rx="3" fill="#2c5f7f"/>
+  <text x="1315" y="97" font-family="Helvetica" font-size="14" fill="#fdf8ef" text-anchor="middle">Apply</text>
+
+
+  <!-- Hero -->
+  <g transform="translate(0,200)">
+    <text x="80" y="0" font-family="Georgia" font-size="20" letter-spacing="6" fill="#b8860b">AEGIS ACADEMY</text>
+    <text x="80" y="80" font-family="Georgia" font-size="72" font-weight="500" fill="#1e4660">Four tiers. One discipline.</text>
+    <text x="80" y="140" font-family="Georgia" font-size="48" font-weight="400" fill="#2c5f7f" font-style="italic">The credential leaders actually use.</text>
+    <text x="80" y="200" font-family="Helvetica" font-size="20" fill="#4a5a65">From "what is A.I." to defending a board-level decision.</text>
+    <text x="80" y="226" font-family="Helvetica" font-size="20" fill="#4a5a65">Renewed every twelve months. Active practice required.</text>
+
+    <!-- Hero image placeholder showing academy-overview-hero.svg -->
+    <g transform="translate(820,-20)">
+      <rect width="540" height="320" fill="#d4e9f1" stroke="#2c5f7f" stroke-width="1"/>
+      <text x="270" y="170" font-family="Helvetica" font-size="14" fill="#2c5f7f" text-anchor="middle">[academy-overview-hero.png]</text>
+      <text x="270" y="190" font-family="Helvetica" font-size="11" fill="#2c5f7f" text-anchor="middle" opacity="0.6">1536×1024 · navy / cream / cyan / gold</text>
+    </g>
+
+    <rect x="80" y="270" width="200" height="56" rx="3" fill="#2c5f7f"/>
+    <text x="180" y="306" font-family="Helvetica" font-size="16" font-weight="500" fill="#fdf8ef" text-anchor="middle">Apply for Tier 0</text>
+    <rect x="300" y="270" width="200" height="56" rx="3" fill="none" stroke="#2c5f7f" stroke-width="2"/>
+    <text x="400" y="306" font-family="Helvetica" font-size="16" font-weight="500" fill="#2c5f7f" text-anchor="middle">Watch 75-sec intro</text>
+  </g>
+
+  <!-- Tier cards -->
+  <g transform="translate(80,650)">
+    <text x="0" y="0" font-family="Georgia" font-size="32" font-weight="500" fill="#1e4660">The ladder</text>
+    <line x1="0" y1="14" x2="80" y2="14" stroke="#b8860b" stroke-width="2"/>
+  </g>
+  <g transform="translate(80,720)">
+    <rect width="1280" height="180" fill="white" stroke="#9bc7d8" stroke-width="1"/>
+    <rect width="6" height="180" fill="#2c5f7f"/>
+    <text x="40" y="50" font-family="Georgia" font-size="20" letter-spacing="4" fill="#b8860b">TIER 0</text>
+    <text x="40" y="90" font-family="Georgia" font-size="36" font-weight="500" fill="#1e4660">AI Business Baseline</text>
+    <text x="40" y="120" font-family="Helvetica" font-size="15" fill="#4a5a65">Anyone new to using A.I. at work · 4-6 hours · Credential: Aegis Operator (baseline)</text>
+    <rect x="40" y="140" width="160" height="32" rx="3" fill="none" stroke="#2c5f7f" stroke-width="1.5"/>
+    <text x="120" y="161" font-family="Helvetica" font-size="13" fill="#2c5f7f" text-anchor="middle">View Tier 0</text>
+    <text x="1240" y="100" font-family="Georgia" font-size="68" font-weight="300" fill="#2c5f7f" fill-opacity="0.15" text-anchor="end">0</text>
+  </g>
+  <g transform="translate(80,940)">
+    <rect width="1280" height="180" fill="white" stroke="#9bc7d8" stroke-width="1"/>
+    <rect width="6" height="180" fill="#2c5f7f"/>
+    <text x="40" y="50" font-family="Georgia" font-size="20" letter-spacing="4" fill="#b8860b">TIER 1</text>
+    <text x="40" y="90" font-family="Georgia" font-size="36" font-weight="500" fill="#1e4660">Operating Discipline</text>
+    <text x="40" y="120" font-family="Helvetica" font-size="15" fill="#4a5a65">Practitioners ready to own a workflow · 6-8 hours · Credential: Aegis Operator (advanced)</text>
+    <rect x="40" y="140" width="160" height="32" rx="3" fill="none" stroke="#2c5f7f" stroke-width="1.5"/>
+    <text x="120" y="161" font-family="Helvetica" font-size="13" fill="#2c5f7f" text-anchor="middle">View Tier 1</text>
+    <text x="1240" y="100" font-family="Georgia" font-size="68" font-weight="300" fill="#2c5f7f" fill-opacity="0.15" text-anchor="end">1</text>
+  </g>
+  <g transform="translate(80,1160)">
+    <rect width="1280" height="180" fill="white" stroke="#9bc7d8" stroke-width="1"/>
+    <rect width="6" height="180" fill="#2c5f7f"/>
+    <text x="40" y="50" font-family="Georgia" font-size="20" letter-spacing="4" fill="#b8860b">TIER 2</text>
+    <text x="40" y="90" font-family="Georgia" font-size="36" font-weight="500" fill="#1e4660">Agentic Delegation</text>
+    <text x="40" y="120" font-family="Helvetica" font-size="15" fill="#4a5a65">Managers supervising agentic work · 8-10 hours · Credential: Aegis Practitioner</text>
+    <rect x="40" y="140" width="160" height="32" rx="3" fill="none" stroke="#2c5f7f" stroke-width="1.5"/>
+    <text x="120" y="161" font-family="Helvetica" font-size="13" fill="#2c5f7f" text-anchor="middle">View Tier 2</text>
+    <text x="1240" y="100" font-family="Georgia" font-size="68" font-weight="300" fill="#2c5f7f" fill-opacity="0.15" text-anchor="end">2</text>
+  </g>
+  <g transform="translate(80,1380)">
+    <rect width="1280" height="180" fill="white" stroke="#9bc7d8" stroke-width="1"/>
+    <rect width="6" height="180" fill="#2c5f7f"/>
+    <text x="40" y="50" font-family="Georgia" font-size="20" letter-spacing="4" fill="#b8860b">TIER 3</text>
+    <text x="40" y="90" font-family="Georgia" font-size="36" font-weight="500" fill="#1e4660">Boardroom Decision Discipline</text>
+    <text x="40" y="120" font-family="Helvetica" font-size="15" fill="#4a5a65">Leaders making AI-era decisions · 6-10 hours · Credential: Aegis Advisor (gated)</text>
+    <rect x="40" y="140" width="160" height="32" rx="3" fill="none" stroke="#2c5f7f" stroke-width="1.5"/>
+    <text x="120" y="161" font-family="Helvetica" font-size="13" fill="#2c5f7f" text-anchor="middle">View Tier 3</text>
+    <text x="1240" y="100" font-family="Georgia" font-size="68" font-weight="300" fill="#2c5f7f" fill-opacity="0.15" text-anchor="end">3</text>
+  </g>
+  <g transform="translate(0,1660)">
+    <rect width="1440" height="140" fill="#1e4660"/>
+    <text x="80" y="40" font-family="Georgia" font-size="22" fill="#fdf8ef" font-weight="500">Aegis Academy</text>
+    <text x="80" y="62" font-family="Helvetica" font-size="13" fill="#d4e9f1" opacity="0.8">aegisboardroom.com</text>
+    <text x="80" y="100" font-family="Helvetica" font-size="11" fill="#d4e9f1" opacity="0.6">AI-content disclosure: portions of this page were AI-drafted and human-edited. Curriculum design and pricing decisions are human-authored.</text>
+    <text x="80" y="120" font-family="Helvetica" font-size="11" fill="#d4e9f1" opacity="0.6">Refund policy · Terms · Privacy · Contact</text>
+  </g>
+</svg>

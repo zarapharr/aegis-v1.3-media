@@ -1,0 +1,29 @@
+flowchart TB
+    D["DECISION"]
+
+    D --> DECIDERS["DECIDERS<br/>Authority to make or veto"]
+    D --> DOERS["DOERS<br/>Will execute"]
+    D --> AFFECTED["AFFECTED<br/>Work or position changes"]
+    D --> INFORMED["INFORMED<br/>Need to know but do not decide"]
+
+    DECIDERS -->|"1. informally first"| MSG1["What they need:<br/>The decision (clear),<br/>rationale (sharp),<br/>alternatives considered,<br/>what changes for them"]
+
+    DOERS -->|"2. their input shapes plan"| MSG2["What they need:<br/>What they will do,<br/>what is NOT changing,<br/>when more detail comes"]
+
+    AFFECTED -->|"3. before they hear from anyone else"| MSG3["What they need:<br/>What changes for them,<br/>when, what is NOT changing,<br/>who they go to with concerns"]
+
+    INFORMED -->|"4. at appropriate moments"| MSG4["What they need:<br/>What changed, why,<br/>what (if anything) is asked"]
+
+    MSG1 --> ONE_ON_ONE["1:1 calibration<br/>(required for any decision<br/>affecting >10 people)"]
+    MSG2 --> ONE_ON_ONE
+    MSG3 --> ONE_ON_ONE
+    MSG4 --> ONE_ON_ONE
+
+    ONE_ON_ONE --> CADENCE["Follow-up cadence:<br/>T=0+2-3d, +1wk, +2wk, +4wk, +8wk"]
+
+    style D fill:#9bc7d8,stroke:#2c5f7f,stroke-width:3px
+    style DECIDERS fill:#e8f4f8,stroke:#2c5f7f
+    style DOERS fill:#e8f4f8,stroke:#2c5f7f
+    style AFFECTED fill:#fff4d6,stroke:#b8860b,stroke-width:2px
+    style INFORMED fill:#e8f4f8,stroke:#2c5f7f
+    style ONE_ON_ONE fill:#fff4d6,stroke:#b8860b,stroke-width:2px

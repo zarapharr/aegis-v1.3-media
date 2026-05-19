@@ -1,0 +1,31 @@
+flowchart LR
+    subgraph pathologies["Seven AI-Decision Pathologies"]
+        P1["P1: AI-drafted analysis<br/>as analysis"]
+        P2["P2: AI consensus pressure"]
+        P3["P3: Vendor capture via demos"]
+        P4["P4: Optionality bloat"]
+        P5["P5: Compounding error<br/>in multi-step planning"]
+        P6["P6: Hallucinated citations"]
+        P7["P7: AI-mediated<br/>info asymmetry"]
+    end
+
+    subgraph lenses["Seven Executive Lenses"]
+        L_CFO["CFO"]
+        L_CPO["CPO/CHRO"]
+        L_CTO["CTO"]
+        L_CEO["CEO"]
+        L_COO["COO"]
+        L_CISO["CISO"]
+        L_CMO["CMO"]
+    end
+
+    P1 ==>|"closest to financial<br/>analysis surface"| L_CFO
+    P2 ==>|"alignment is people"| L_CPO
+    P3 ==>|"sees demo vs reality"| L_CTO
+    P4 ==>|"attention is limited"| L_CEO
+    P5 ==>|"sees execution chains"| L_COO
+    P6 ==>|"reads regulatory texts"| L_CISO
+    P7 ==>|"closest to customer voice"| L_CMO
+
+    style pathologies fill:#fff4d6
+    style lenses fill:#e8f4f8

@@ -1,0 +1,11 @@
+Welcome to Aegis Academy, Tier One: Operating Discipline.
+
+You are here because you are ready to own at least one A.I.-assisted workflow inside your job. Not personal productivity. Not experiments. A real workflow that other people depend on.
+
+Tier One teaches the five questions to ask before you point A.I. at a workflow. It teaches context as inventory, context as scaffolding, and context as memory. It teaches the eval ritual: a daily fifteen-minute discipline that tells you whether your workflow is getting better or worse over time.
+
+You will write kill criteria, so that the workflow either survives honestly or fails honestly. You will learn the data classification triage, so that nothing private leaks into a public tool. You will learn what drift looks like and how to catch it before it becomes a customer incident.
+
+The capstone is a twelve-section Workflow Operating Plan. You will run it for fourteen days. Your manager will read it and either sign or send it back with specific fixes.
+
+If you complete Tier One, you carry the Aegis Operator credential at the practitioner level. That is a real signal: you supervise A.I.-assisted work with discipline, and you can prove it. Ready?

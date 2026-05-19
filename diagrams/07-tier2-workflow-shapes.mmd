@@ -1,0 +1,31 @@
+flowchart TB
+    subgraph pipeline["Shape 1: Pipeline (linear)"]
+        P1["Step 1"] --> P2["Step 2"] --> P3["Step 3"] --> P4["Step 4 (trust boundary)"] --> P5["Step 5"]
+    end
+
+    subgraph fanout["Shape 2: Fan-out / Fan-in"]
+        F0["Input"]
+        F0 --> FA["Sub-task A"]
+        F0 --> FB["Sub-task B"]
+        F0 --> FC["Sub-task C"]
+        FA --> FM["Merge"]
+        FB --> FM
+        FC --> FM
+        FM --> FOUT["Output (trust boundary)"]
+    end
+
+    subgraph supervisor["Shape 3: Supervisor + Workers"]
+        S0["Input"] --> SUP["Supervisor<br/>(routes by type)"]
+        SUP -->|"type A"| WA["Worker A"]
+        SUP -->|"type B"| WB["Worker B"]
+        SUP -->|"type C"| WC["Worker C"]
+        WA --> SOUT["Output (trust boundary)"]
+        WB --> SOUT
+        WC --> SOUT
+    end
+
+    style P4 fill:#fff4d6,stroke:#b8860b,stroke-width:2px
+    style FOUT fill:#fff4d6,stroke:#b8860b,stroke-width:2px
+    style SOUT fill:#fff4d6,stroke:#b8860b,stroke-width:2px
+    style SUP fill:#e8f4f8,stroke:#2c5f7f,stroke-width:2px
+    style FM fill:#e8f4f8,stroke:#2c5f7f,stroke-width:2px

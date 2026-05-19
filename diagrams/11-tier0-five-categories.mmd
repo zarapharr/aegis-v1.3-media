@@ -1,0 +1,29 @@
+flowchart TB
+    Q["About to paste something<br/>into a public AI tool?"]
+    Q --> ST["Stranger Test<br/>'Would I email this to a<br/>random person I just met<br/>at an industry event?'"]
+
+    ST --> CHECK{"Yes to all 5?"}
+
+    subgraph categories["The 5 NEVER-paste categories"]
+        C1["1. Customer personal data<br/>(name + contact + anything specific)"]
+        C2["2. Customer financial data<br/>(accounts, balances, transactions)"]
+        C3["3. Employee data<br/>(personnel files, HR info, salaries)"]
+        C4["4. Trade secrets / proprietary IP<br/>(pricing, margins, source code)"]
+        C5["5. Regulated information<br/>(HIPAA, FERPA, FINRA, NDA, classified)"]
+    end
+
+    categories -.->|"any of these in the text?"| CHECK
+    CHECK -->|"NO (clean)"| PASTE["Safe to paste"]
+    CHECK -->|"YES (contains one)"| OPTIONS["Three options"]
+
+    OPTIONS --> O1["1. Edit it down<br/>(strip identifiers; make generic)"]
+    OPTIONS --> O2["2. Use approved enterprise tool<br/>(if your company has one and<br/>the category is allowed)"]
+    OPTIONS --> O3["3. Do not paste<br/>(do the work without AI;<br/>cost of skipping AI < cost of leak)"]
+
+    style PASTE fill:#d4edda,stroke:#2c5f3f,stroke-width:2px
+    style C1 fill:#f8d7da,stroke:#a02530
+    style C2 fill:#f8d7da,stroke:#a02530
+    style C3 fill:#f8d7da,stroke:#a02530
+    style C4 fill:#f8d7da,stroke:#a02530
+    style C5 fill:#f8d7da,stroke:#a02530
+    style ST fill:#fff4d6,stroke:#b8860b,stroke-width:2px

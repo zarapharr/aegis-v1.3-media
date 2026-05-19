@@ -1,0 +1,25 @@
+flowchart TB
+    subgraph before["Before the trust boundary"]
+        R1["Read-only queries"]
+        R2["Reversible internal writes<br/>(staging tables, draft fields)"]
+        R3["Cheap-to-undo actions<br/>(manager fixes in 60 sec)"]
+    end
+
+    BOUNDARY["TRUST BOUNDARY<br/>(human gate)"]:::boundary
+
+    subgraph after["After the trust boundary"]
+        A1["Irreversible actions<br/>(sent email, charged card)"]
+        A2["Customer/auditor-visible"]
+        A3["Financial/legal/safety/regulated"]
+    end
+
+    R1 --> BOUNDARY
+    R2 --> BOUNDARY
+    R3 --> BOUNDARY
+    BOUNDARY --> A1
+    BOUNDARY --> A2
+    BOUNDARY --> A3
+
+    classDef boundary fill:#fff4d6,stroke:#b8860b,stroke-width:3px,color:#000
+    style before fill:#e8f4f8,stroke:#2c5f7f
+    style after fill:#f8d7da,stroke:#a02530

@@ -1,0 +1,9 @@
+Welcome to Aegis Academy, Tier Zero: the A.I. Business Baseline.
+
+Over the next four to six hours, you will learn what A.I. actually is, what it is not, and what it should never touch. You will learn how to ask, how to review, and how to pick a first safe use case you can ship at work this week.
+
+This tier is for anyone new to using A.I. in their job. There are no prerequisites. By the end, you will be able to use A.I. on the work it is good at, avoid the work it is bad at, and recognize the difference between a confident answer and a correct one. That distinction, by itself, is worth the credential.
+
+Eight short modules. Each one ends with a small thing to try at work. The final module is your routing instrument: it tells you whether to stay at the baseline, move up to Tier One, or take a sideways path into a domain-specific module.
+
+When you are ready, start with Module Zero point One: what A.I. is. The compass is at the top of the page. Let's begin.

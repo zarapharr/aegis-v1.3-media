@@ -1,0 +1,20 @@
+flowchart TB
+    AOP["Agent Operating Plan (AOP)<br/>Tier 2 capstone artifact"]
+    AOP --> S1["§1 Brief (12 elements)"]
+    AOP --> S2["§2 Workflow diagram"]
+    AOP --> S3["§3 Tools + trust boundary"]
+    AOP --> S4["§4 Review cadence"]
+    AOP --> S5["§5 Override discipline"]
+    AOP --> S6["§6 Ops cadence (5 rituals)"]
+    AOP --> S7["§7 Failure + rollback"]
+    AOP --> S8["§8 Change log"]
+    AOP --> S9["§9 Eval history"]
+    AOP --> S10["§10 Named ownership<br/>+ sponsor attestation"]
+    AOP --> S11["§11 Watch list"]
+
+    S10 -->|"signed quarterly"| ATT["Sponsor attestation<br/>(6 specific affirmations)"]
+    ATT -->|"required for"| CRED["Aegis Practitioner<br/>credential"]
+
+    style AOP fill:#9bc7d8,stroke:#2c5f7f,stroke-width:3px
+    style CRED fill:#d4edda,stroke:#2c5f3f,stroke-width:3px
+    style ATT fill:#fff4d6,stroke:#b8860b,stroke-width:2px

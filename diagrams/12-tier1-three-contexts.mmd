@@ -1,0 +1,34 @@
+flowchart LR
+    W["Workflow"]
+
+    subgraph layer1["Context as INVENTORY"]
+        I1["What does the AI need<br/>to know to do this job?"]
+        I2["- Customer record"]
+        I3["- Prior conversation"]
+        I4["- Internal policy"]
+        I5["- Source-of-truth docs"]
+    end
+
+    subgraph layer2["Context as SCAFFOLDING"]
+        S1["The four scaffolds"]
+        S2["1. Role assignment"]
+        S3["2. Examples (always > instructions)"]
+        S4["3. Prompt template"]
+        S5["4. Structured output"]
+    end
+
+    subgraph layer3["Context as MEMORY"]
+        M1["When to start new chat<br/>vs continue current?"]
+        M2["Paste context vs load via tool?"]
+        M3["Long conversations degrade.<br/>Manage state actively."]
+    end
+
+    W --> layer1
+    layer1 --> layer2
+    layer2 --> layer3
+    layer3 --> EVAL["Daily eval ritual"]
+
+    style layer1 fill:#e8f4f8,stroke:#2c5f7f
+    style layer2 fill:#d4e9f1,stroke:#2c5f7f
+    style layer3 fill:#b8d8e6,stroke:#2c5f7f
+    style EVAL fill:#fff4d6,stroke:#b8860b,stroke-width:2px

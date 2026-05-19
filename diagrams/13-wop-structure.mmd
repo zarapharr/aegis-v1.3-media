@@ -1,0 +1,23 @@
+flowchart TB
+    WOP["Workflow Operating Plan (WOP)<br/>Tier 1 capstone artifact<br/>12 sections"]
+
+    WOP --> S1["§1 Workflow name + owner"]
+    WOP --> S2["§2 Fit-test answers (5 questions)"]
+    WOP --> S3["§3 Context inventory"]
+    WOP --> S4["§4 Prompt template + scaffolding"]
+    WOP --> S5["§5 Data policy block<br/>(SAFE / APPROVED-TOOL / NEVER-AI)"]
+    WOP --> S6["§6 Verification scaffolding (3 layers)"]
+    WOP --> S7["§7 Daily eval rubric + golden set"]
+    WOP --> S8["§8 Kill criteria (soft + hard)"]
+    WOP --> S9["§9 Cost + latency targets"]
+    WOP --> S10["§10 Drift detection plan"]
+    WOP --> S11["§11 Change log"]
+    WOP --> S12["§12 Named manager attestation"]
+
+    S12 -->|"signed after 14-day run"| ATT["Manager attestation"]
+    ATT -->|"submitted to"| ASSESS["Aegis Operator panel<br/>(25-item + practical)"]
+    ASSESS -->|"pass"| CRED["Aegis Operator<br/>credential"]
+
+    style WOP fill:#9bc7d8,stroke:#2c5f7f,stroke-width:3px
+    style CRED fill:#d4edda,stroke:#2c5f3f,stroke-width:3px
+    style ATT fill:#fff4d6,stroke:#b8860b,stroke-width:2px

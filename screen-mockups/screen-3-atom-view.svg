@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 2000" width="1440" height="2000">
+  <rect width="1440" height="2000" fill="#fdf8ef"/>
+  
+  <!-- Browser chrome -->
+  <rect width="1440" height="48" fill="#e0e0e0"/>
+  <circle cx="20" cy="24" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="24" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="24" r="6" fill="#28c840"/>
+  <rect x="200" y="12" width="900" height="24" rx="12" fill="#ffffff" stroke="#cccccc"/>
+  <text x="220" y="29" font-family="Helvetica" font-size="13" fill="#666">https://aegisboardroom.com/academy/tier-2/tools-mcp-trust-boundary/scope-each-tool-precisely</text>
+  <text x="1200" y="29" font-family="Helvetica" font-size="11" fill="#666">Atom 2 — Scope each tool precisely</text>
+
+  
+  <!-- Site nav -->
+  <rect y="48" width="1440" height="72" fill="#fdf8ef"/>
+  <g transform="translate(80,68)">
+    <path d="M 0 0 L 26 0 L 26 30 Q 26 43 13 47 Q 0 43 0 30 Z" fill="none" stroke="#2c5f7f" stroke-width="1.5"/>
+    <line x1="6" y1="9" x2="20" y2="9" stroke="#2c5f7f" stroke-width="1"/>
+    <line x1="6" y1="18" x2="20" y2="18" stroke="#2c5f7f" stroke-width="1"/>
+    <line x1="6" y1="27" x2="20" y2="27" stroke="#2c5f7f" stroke-width="1"/>
+    <line x1="6" y1="36" x2="20" y2="36" stroke="#2c5f7f" stroke-width="1"/>
+    <text x="42" y="22" font-family="Georgia" font-size="20" font-weight="500" fill="#2c5f7f">AEGIS</text>
+    <text x="42" y="40" font-family="Georgia" font-size="12" font-style="italic" fill="#1a2a35" opacity="0.6">ACADEMY</text>
+  </g>
+  <g font-family="Helvetica" font-size="14" fill="#1a2a35">
+    <text x="900" y="92" fill="#2c5f7f">Academy</text>
+    <text x="990" y="92">Sprints</text>
+    <text x="1070" y="92">Credentials</text>
+    <text x="1180" y="92">About</text>
+  </g>
+  <rect x="1260" y="75" width="110" height="34" rx="3" fill="#2c5f7f"/>
+  <text x="1315" y="97" font-family="Helvetica" font-size="14" fill="#fdf8ef" text-anchor="middle">Apply</text>
+
+
+  <!-- Breadcrumb -->
+  <text x="80" y="160" font-family="Helvetica" font-size="13" fill="#4a5a65">Academy / Tier 2 / Module 2.6 / <tspan fill="#2c5f7f">Atom 2 of 3</tspan></text>
+
+  <!-- Atom progress nav -->
+  <g transform="translate(80,200)">
+    <line x1="0" y1="20" x2="800" y2="20" stroke="#9bc7d8" stroke-width="1"/>
+    <circle cx="0" cy="20" r="10" fill="#2c5f7f"/>
+    <text x="0" y="55" font-family="Helvetica" font-size="11" fill="#4a5a65" text-anchor="middle">Atom 1</text>
+    <circle cx="400" cy="20" r="13" fill="#b8860b" stroke="#1e4660" stroke-width="2"/>
+    <text x="400" y="55" font-family="Helvetica" font-size="11" fill="#1e4660" font-weight="600" text-anchor="middle">Atom 2 (here)</text>
+    <circle cx="800" cy="20" r="10" fill="white" stroke="#9bc7d8" stroke-width="2"/>
+    <text x="800" y="55" font-family="Helvetica" font-size="11" fill="#4a5a65" text-anchor="middle">Atom 3</text>
+  </g>
+
+  <!-- Main column -->
+  <g transform="translate(80,330)">
+    <text x="0" y="0" font-family="Georgia" font-size="14" letter-spacing="3" fill="#b8860b">MODULE 2.6 · ATOM 2 OF 3 · ~4 MIN</text>
+    <text x="0" y="60" font-family="Georgia" font-size="46" font-weight="500" fill="#1e4660">Scope each tool precisely</text>
+    <text x="0" y="100" font-family="Georgia" font-size="22" fill="#2c5f7f" font-style="italic">read-only, write-narrow, gated-write</text>
+
+    <g transform="translate(0,160)" font-family="Georgia" font-size="17" fill="#1a2a35">
+      <text x="0" y="0" font-weight="500" font-size="19" fill="#1e4660">Three scope levels, in order of safety</text>
+      <text x="0" y="40">When you give the agent a tool, scope it down to the smallest version</text>
+      <text x="0" y="65">that does the job.</text>
+
+      <text x="0" y="115" font-weight="500" font-size="18" fill="#1e4660">Read-only</text>
+      <text x="0" y="145">Default. The agent can fetch, query, search, read. It cannot change</text>
+      <text x="0" y="170">anything. Most agent tasks need only read-only for 80% of their work.</text>
+
+      <text x="0" y="220" font-weight="500" font-size="18" fill="#1e4660">Write-narrow</text>
+      <text x="0" y="250">The agent can write, but only to a specific field, table, channel, or kind</text>
+      <text x="0" y="275">of action. "Can set ticket priority and assignee. Cannot edit ticket text.</text>
+      <text x="0" y="300">Cannot close."</text>
+
+      <text x="0" y="350" font-weight="500" font-size="18" fill="#1e4660">Gated-write</text>
+      <text x="0" y="380">The agent can propose a write, but a human must approve before it</text>
+      <text x="0" y="405">executes. Default for any action that is irreversible, customer-visible,</text>
+      <text x="0" y="430">financial, or safety-relevant.</text>
+    </g>
+
+    <!-- Embedded diagram -->
+    <g transform="translate(0,720)">
+      <rect width="900" height="240" fill="#d4e9f1" stroke="#2c5f7f" stroke-width="1"/>
+      <text x="450" y="125" font-family="Helvetica" font-size="14" fill="#2c5f7f" text-anchor="middle">[03-tier2-trust-boundary.png]</text>
+      <text x="450" y="145" font-family="Helvetica" font-size="11" fill="#2c5f7f" text-anchor="middle" opacity="0.6">trust boundary diagram inline</text>
+    </g>
+
+    <!-- Quick check block -->
+    <g transform="translate(0,1010)">
+      <rect width="900" height="220" fill="white" stroke="#b8860b" stroke-width="2"/>
+      <rect width="6" height="220" fill="#b8860b"/>
+      <text x="30" y="35" font-family="Georgia" font-size="13" letter-spacing="2" fill="#b8860b">QUICK CHECK</text>
+      <text x="30" y="68" font-family="Helvetica" font-size="15" fill="#1a2a35">Your refund-triage agent needs to issue refunds for cases under $100.</text>
+      <text x="30" y="89" font-family="Helvetica" font-size="15" fill="#1a2a35">Which tool scope?</text>
+      <g transform="translate(30,108)" font-family="Helvetica" font-size="13" fill="#4a5a65">
+        <text x="0" y="20">(A) Full write to the refund system.</text>
+        <text x="0" y="44">(B) Read-only on tickets; gated-write on refunds.</text>
+        <text x="0" y="68">(C) Write-narrow on refunds capped at $100, with daily-eval review.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Sidebar — atom list in module -->
+  <g transform="translate(1040,330)">
+    <rect width="320" height="600" fill="white" stroke="#9bc7d8" stroke-width="1"/>
+    <text x="20" y="30" font-family="Georgia" font-size="14" letter-spacing="2" fill="#b8860b">MODULE 2.6</text>
+    <text x="20" y="58" font-family="Georgia" font-size="18" font-weight="500" fill="#1e4660">Tools, MCP, and the</text>
+    <text x="20" y="80" font-family="Georgia" font-size="18" font-weight="500" fill="#1e4660">trust boundary</text>
+    <line x1="20" y1="100" x2="100" y2="100" stroke="#b8860b" stroke-width="2"/>
+    <g font-family="Helvetica" font-size="14" fill="#1a2a35">
+      <text x="20" y="140">✓ Atom 1. Tools are the action surface</text>
+      <rect x="14" y="160" width="290" height="32" fill="#d4e9f1"/>
+      <text x="20" y="180" fill="#1e4660" font-weight="600">→ Atom 2. Scope each tool precisely</text>
+      <text x="20" y="220">Atom 3. The trust boundary</text>
+      <text x="20" y="270" fill="#2c5f7f">Exercise. Audit your tool list</text>
+      <text x="20" y="300" fill="#2c5f7f">Knowledge check (5 questions)</text>
+      <text x="20" y="330" fill="#2c5f7f">Summary + next</text>
+    </g>
+    <line x1="20" y1="370" x2="300" y2="370" stroke="#9bc7d8" stroke-width="1"/>
+    <text x="20" y="400" font-family="Georgia" font-size="12" letter-spacing="2" fill="#b8860b">YOUR MANAGER</text>
+    <text x="20" y="425" font-family="Helvetica" font-size="13" fill="#4a5a65">Manager companion view enabled</text>
+    <text x="20" y="445" font-family="Helvetica" font-size="11" fill="#4a5a65" opacity="0.7">m/tools-mcp...?l=tok_abcd1234</text>
+    <line x1="20" y1="475" x2="300" y2="475" stroke="#9bc7d8" stroke-width="1"/>
+    <rect x="20" y="500" width="280" height="40" rx="3" fill="#2c5f7f"/>
+    <text x="160" y="525" font-family="Helvetica" font-size="14" fill="#fdf8ef" text-anchor="middle">Next atom →</text>
+    <rect x="20" y="550" width="280" height="36" rx="3" fill="none" stroke="#2c5f7f" stroke-width="1.5"/>
+    <text x="160" y="573" font-family="Helvetica" font-size="13" fill="#2c5f7f" text-anchor="middle">← Previous atom</text>
+  </g>
+
+  <!-- AI-disclosure footer -->
+  <g transform="translate(0,1900)">
+    <rect width="1440" height="100" fill="#1e4660"/>
+    <text x="80" y="40" font-family="Helvetica" font-size="11" fill="#d4e9f1" opacity="0.6">AI-content disclosure: portions of this atom were AI-drafted and human-edited. Curriculum design is human-authored.</text>
+    <text x="80" y="65" font-family="Helvetica" font-size="11" fill="#d4e9f1" opacity="0.6">aegisboardroom.com · Aegis Academy v1.3</text>
+  </g>
+</svg>

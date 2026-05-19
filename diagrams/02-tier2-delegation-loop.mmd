@@ -1,0 +1,22 @@
+flowchart LR
+    subgraph axes["Three Axes"]
+        S["Speed"]
+        SC["Scale"]
+        R["Reversibility<br/>(the gate)"]
+    end
+
+    subgraph workers["Four Workers (in order)"]
+        W1["1. Human only"]
+        W2["2. Human + AI assist<br/>(Tier 1)"]
+        W3["3. Agentic with checkpoints<br/>(Tier 2 sweet spot)"]
+        W4["4. Fully automated<br/>(only trivially reversible<br/>read-only)"]
+    end
+
+    axes -->|"score the work"| workers
+    W1 -->|"walk the menu in order"| W2
+    W2 -->|"only if Tier 1 baseline clean"| W3
+    W3 -->|"only if trivially reversible"| W4
+
+    style R fill:#fff4d6,stroke:#b8860b,stroke-width:2px
+    style W3 fill:#d4e9f1,stroke:#2c5f7f,stroke-width:2px
+    style W4 fill:#f8d7da,stroke:#a02530
